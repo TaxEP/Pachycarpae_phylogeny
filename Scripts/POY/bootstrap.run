@@ -1,0 +1,17 @@
+mxram 2048;
+log boot_morpho_full_mol.log;
+nstates dna;
+nstates gaps;
+proc morpho_full_mol_ip_consensus_align_matrix.ss;
+proc morpho_full_mol_ip_consensus_tnt.tre;
+tsave* morpho_full_mol_ip_consensus_boot_tnt.tre;
+ttags=;
+taxname=;
+ne*;
+resample boot replications 1000;
+tplot;
+save *;
+tsave /;
+log/;
+zzz;
+;
