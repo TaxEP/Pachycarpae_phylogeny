@@ -6,4 +6,4 @@ Analyses uses the following five scripts in the order they are presented:
 4. static_align.poy
 5. bootstrap.run
 
-The first four need Poy 5.0 and the fifth runs in TNT. In order to run bootstrap, the consensus tree must first be converted to TNT format. For that, run script "figtree2tnt.pl" in perl. "tnt2figtree.pl" converts TNT trees to figtree format. 
+The first four run in Poy 5.0 and the fifth runs in TNT. In order to run bootstrap, the consensus tree gnerated by POY must be converted to TNT format. For that, use the perl script "figtree2tnt.pl". To convert TNT trees to figtree format, use "tnt2figtree.pl". 
